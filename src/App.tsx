@@ -1,13 +1,9 @@
-import Button from "./components/Button";
+// import { Home } from "./pages/Home";
+
+import { NewRoom } from "./pages/NewRoom";
 
 function App() {
-  function handleClick(): void {}
-
-  return (
-    <div>
-      <Button onClick={handleClick} />
-    </div>
-  );
+  return <NewRoom />;
 }
 
 export default App;
